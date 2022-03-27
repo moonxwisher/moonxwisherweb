@@ -966,7 +966,7 @@ input::-moz-focus-inner {
 
 .ss-info {
     background-color: #d7ecfb;
-    color: #4a95cc;
+    color: #a2b2df;
 }
 
 .ss-notice {
@@ -1329,9 +1329,12 @@ input::-moz-focus-inner {
     margin-bottom: 1.2rem;
 }
 
+
+/*INTRO ABOUT RESUME ETC H5*/
+
 .section-intro h5 {
-    color: #e8dff5;
-    font-size: 1.6rem;
+    color: #a877c8;
+    font-size: 2.8rem;
     line-height: 1.875;
     margin-bottom: 0.3rem;
     letter-spacing: .4rem;
@@ -1417,7 +1420,7 @@ header .logo a {
     color: transparent;
     width: 92px;
     height: 15px;
-    background: url("../images/logo.png") no-repeat center;
+    background: url("../images/logo2.png") no-repeat center;
     background-size: 92px 15px;
 }
 
@@ -1439,7 +1442,7 @@ header .logo a {
 
 .menu-toggle span {
     display: block;
-    background-color: #e6a8ff;
+    background-color: #a2da5a;
     width: 24px;
     height: 3px;
     margin-top: -1.5px;
@@ -1505,7 +1508,8 @@ header .logo a {
 
 .menu-toggle.is-clicked span::before,
 .menu-toggle.is-clicked span::after {
-    background-color: #ff0077;
+    background-color: #f7bb2a;
+    /*cruz*/
     -moz-transition-delay: 0s, 0.2s;
     -o-transition-delay: 0s, 0.2s;
     -webkit-transition-delay: 0s, 0.2s;
@@ -1569,14 +1573,17 @@ header .logo a {
     border: none;
 }
 
+
+/*barrita de arriba q molesta un cojón pero bueno la dejaremos*/
+
 .main-navigation li a:hover {
-    color: #f0b2ff;
+    color: #a877c8;
     padding-left: 1rem;
 }
 
 .main-navigation li.current>a {
     background: none;
-    color: #78c4ff;
+    color: #a2da5a;
 }
 
 
@@ -1619,7 +1626,7 @@ header .logo a {
  */
 
 #intro {
-    background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+    background: #15151575 url(../images/boceto3.png) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1665,7 +1672,8 @@ header .logo a {
 }
 
 .intro-content h5 {
-    color: #ffc3ff;
+    color: #f7bb2a;
+    /*PRESENT DAY PRESENT TIME*/
     font-family: "poppins-bold", sans-serif;
     font-size: 2.3rem;
     line-height: 1.565;
@@ -1719,7 +1727,7 @@ header .logo a {
 
 .intro-content .button:hover,
 .intro-content .button:focus {
-    border-color: #ffc3ff;
+    border-color: #a2b2df;
 }
 
 .intro-content .button::after {
@@ -1755,9 +1763,12 @@ header .logo a {
     color: #FFFFFF;
 }
 
+
+/*colores rrss*/
+
 .intro-social li a:hover,
 .intro-social li a:focus {
-    color: #ffc3ff;
+    color: #a877c8;
 }
 
 
@@ -1837,7 +1848,7 @@ header .logo a {
  */
 
 #about {
-    background: #fce1e4;
+    background: #fbf2fd;
     padding-top: 12rem;
     padding-bottom: 15rem;
 }
@@ -1995,7 +2006,8 @@ header .logo a {
 }
 
 #resume .resume-header h2 {
-    color: #ebabe0;
+    color: #f7bb2a;
+    /*work experience, education*/
 }
 
 #resume .resume-timeline {
@@ -2722,7 +2734,7 @@ header .logo a {
 }
 
 #contact .section-intro h5 {
-    color: #ffc3ff;
+    color: #a877c8;
     ;
 }
 
@@ -2790,7 +2802,7 @@ header .logo a {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #ffc3ff;
+    background: #a877c8;
 }
 
 #contact form .form-field label::after {
@@ -2848,7 +2860,7 @@ header .logo a {
     padding: 0 3rem;
     margin-top: 4.8rem;
     width: 100%;
-    background: #ffc3ff;
+    background: #a877c8;
     color: #FFFFFF;
 }
 
@@ -2872,7 +2884,7 @@ header .logo a {
 }
 
 #message-success {
-    color: #ffc3ff;
+    color: #a2da5a;
 }
 
 #message-warning i,
@@ -2929,7 +2941,7 @@ header .logo a {
 }
 
 .contact-info h5 {
-    color: #daeaf6;
+    color: #a2b2df;
 }
 
 
@@ -3111,7 +3123,8 @@ footer .copyright span:last-child::after {
     width: 6rem;
     line-height: 6.6rem;
     text-align: center;
-    background: #daeaf6;
+    background: #a877c8;
+    /*botonparriba*/
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
@@ -3128,7 +3141,7 @@ footer .copyright span:last-child::after {
 }
 
 #go-top a:hover {
-    background: #000000;
+    background: #f7bb2a;
 }
 
 
