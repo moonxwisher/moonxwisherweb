@@ -29,6 +29,11 @@
  */
 
 
+/* colores q he usao:
+naranja: #f7bb2a; 
+morado:#a877c8; */
+
+
 /** 
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
@@ -553,7 +558,9 @@ img.pull-left {
 }
 
 .pace .pace-progress {
-    background: #FF0077;
+    background: #a877c8;
+    /* cambiar a morado
+    */
     position: fixed;
     z-index: 900;
     top: 0;
@@ -857,7 +864,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-    background: #313131;
+    background: #f7bb2a;
+    ;
+    /* botones (el de cv en verdá)*/
     color: #FFFFFF;
 }
 
@@ -1143,6 +1152,7 @@ input::-moz-focus-inner {
 
 .stats-tabs li a:hover {
     color: #FF0077;
+    /* cambiar*/
 }
 
 .stats-tabs li a em {
@@ -1442,7 +1452,8 @@ header .logo a {
 
 .menu-toggle span {
     display: block;
-    background-color: #a2da5a;
+    background-color: #f7bb2a;
+    /*tres barritas*/
     width: 24px;
     height: 3px;
     margin-top: -1.5px;
@@ -1727,7 +1738,7 @@ header .logo a {
 
 .intro-content .button:hover,
 .intro-content .button:focus {
-    border-color: #a2b2df;
+    border-color: #a877c8;
 }
 
 .intro-content .button::after {
@@ -1865,10 +1876,19 @@ header .logo a {
 
 .intro-info img {
     height: 25%;
-    width: 25%;
-    border-radius: 40%;
-    margin: .9rem 9rem 3rem 9rem;
+    width: 45%;
+    border-radius: 0%;
+    margin: .9rem 4rem 3rem 9rem;
+    float: left;
+}
+
+#cuadrao {
+    padding-left: 12rem;
+    height: 30%;
+    width: 30%;
+    border-radius: 30%;
     float: right;
+    z-index: 99;
 }
 
 .intro-info .lead {
@@ -2374,7 +2394,8 @@ header .logo a {
 }
 
 .popup-modal .link-box a:hover {
-    background: #cc005f;
+    background: #f7bb2a;
+    ;
     border: none;
 }
 
@@ -2941,7 +2962,8 @@ header .logo a {
 }
 
 .contact-info h5 {
-    color: #a2b2df;
+    color: #f7bb2a;
+    /*email me at*/
 }
 
 
@@ -3031,7 +3053,7 @@ footer a:visited {
 
 footer a:hover,
 footer a:focus {
-    color: #daeaf6;
+    color: #a877c8;
 }
 
 footer .row {
