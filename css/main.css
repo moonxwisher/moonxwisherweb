@@ -3123,6 +3123,30 @@ footer .copyright span:last-child::after {
     }
 }
 
+.flex-container {
+    display: flex;
+    gap: 50px;
+    gap: 50px 50px;
+    align-items: baseline;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    /* row-gap column gap */
+    row-gap: 0px;
+    column-gap: 10px;
+}
+
+.flex-container div {
+    /*border: 2px solid black;*/
+    margin: 7px;
+}
+
+.flex-container img {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
 
 /**
  * go to top - (_layout.scss)
